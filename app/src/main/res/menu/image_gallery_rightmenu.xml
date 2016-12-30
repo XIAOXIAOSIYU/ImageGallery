@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/empty"
+        android:icon="@drawable/dots_vertical"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="Options"
+        tools:ignore="AppCompatResource">
+
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:showAsAction="never"
+            android:title="Settings"
+            tools:ignore="AppCompatResource" />
+
+        <item
+            android:id="@+id/action_help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:showAsAction="never"
+            android:title="Help"
+            tools:ignore="AppCompatResource" />
+
+    </item>
+
+</menu>
+
+    <!--android:actionProviderClass="@android:style/Widget.Holo.ActionButton.Overflow"-->
+    <!--Theme.AppCompat.Light.DarkActionBar-->
